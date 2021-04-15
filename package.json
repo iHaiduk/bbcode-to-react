@@ -1,0 +1,20 @@
+{
+  "name": "bbcode-to-react",
+  "version": "0.2.9",
+  "description": "A utility for turning raw BBCode into React elements. ",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "yarn prebuild",
+    "prebuild": "babel src --out-dir lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "7.13.14",
+    "@babel/core": "7.13.15",
+    "@babel/preset-env": "7.13.15",
+    "@babel/preset-react": "7.13.13",
+    "json-loader": "^0.5.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
